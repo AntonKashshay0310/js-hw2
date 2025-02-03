@@ -29,4 +29,6 @@ console.log(`Число${korin} Корінь цього числа ${Math.sqrt(k
 // 9
 const justNumber = 18;
 const stringNumber = "27";
-console.log(`З рядка в число, результат: ${parseInt(stringNumber)} З числа в рядок, результат:${toString(justNumber)}`);
+const justNumberParse = parseInt(stringNumber);
+const stringNumberParse = justNumber.toString();
+console.log(`З рядка в число, результат: ${justNumberParse} З числа в рядок, результат:${stringNumberParse}`);
